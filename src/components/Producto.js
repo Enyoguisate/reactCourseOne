@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
 
-const Producto = () => {
+const Producto = ({producto}) => (
+    <div>
+        <h1>{producto.name}</h1>
+        <p> precio: ${producto.precio}</p>
+    </div>
 
-    return (
-        <h1>Desde Producto</h1>
-    );
-}
+)
 
 export default Producto;

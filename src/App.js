@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Productos from './components/ListaProductos';
+import ListaProductos from './components/ListaProductos';
 
 function App() {
   const empleado = {
@@ -16,7 +16,7 @@ function App() {
     <Fragment>
       {/*  */}
       <Header titulo="Tienda Virtual"></Header>
-      <Productos></Productos>
+      <ListaProductos></ListaProductos>
       <Footer fecha={fecha}></Footer>
     </Fragment>
   );
